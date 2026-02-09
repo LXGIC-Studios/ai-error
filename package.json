@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/ai-error",
+  "version": "1.0.0",
+  "description": "Parse error messages and stack traces, get context and fix suggestions. Built-in database of 200+ common Node.js and TypeScript errors with solutions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-error": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "error-parser",
+    "stack-trace",
+    "debugging",
+    "nodejs-errors",
+    "typescript-errors",
+    "fix-suggestions",
+    "developer-tools",
+    "error-handling",
+    "diagnostics",
+    "troubleshooting",
+    "cli",
+    "auto-fix",
+    "error-database",
+    "devtools"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-error"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
